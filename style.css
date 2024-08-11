@@ -9,7 +9,7 @@ h1{
 .color{
     color:orange;
 }
-section{
+.flexible-container{
    display:flex;
    margin-bottom: 150px;
 }
@@ -36,4 +36,29 @@ section{
     background-image: url(images\ \(5\).jpg);
     background-repeat: no-repeat;
     background-position: right;
+}
+.experience-area{
+    background-image: url(images\ \(6\).jpg);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.experience-item{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    box-shadow:10px 10px 50px rgb(98, 105, 205);
+}
+#saiful-islam{
+    border-left: solid;
+    border-image: linear-gradient(blue cyan);
+    border-image-slice: 1;
+}
+#new-develop{
+    border-left: solid;
+    border-image: linear-gradient(blue cyan);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
 }
